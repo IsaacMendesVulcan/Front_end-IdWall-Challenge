@@ -1,0 +1,115 @@
+.menu {
+    margin: auto;
+    padding: 0%;
+    height: 80px;
+    background-color: #50f;
+    padding: 0 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+.idwall {
+    width: 80px;
+}
+
+.header-nav ul {
+    display: flex;
+}
+
+.header-nav li {
+    margin: 0 10px;
+}
+
+.header-nav a {
+    font-size: 1.2rem;
+    font-weight: 800;
+    transition: 0.5s;
+}
+
+.header-nav a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.form-area {
+    background-color: #50f;
+}
+
+.form {
+    position: absolute;
+    float: left;
+    left: 15px;
+    width: 35%;
+    padding: 20px;
+    margin: 8%;
+    margin-top: 250px;
+    border: 1px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgb(214, 212, 212);
+
+}
+
+.form-btn {
+    border: 1px solid #50f;
+    background-color: #50f;
+    color: rgb(255, 255, 255);
+    padding: 12px 30px;
+    border-radius: 70px;
+    font-weight: 700;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+
+.form-btn:hover {
+    color: #f3fcff;
+}
+
+.list-report {
+    position: inherit;
+    float: right;
+    right: 15px;
+    padding: 10px;
+    margin: 29%;
+    margin-top: 250px;
+    width: 25%;
+    border: 1px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgb(214, 212, 212);
+
+
+}
+
+
+.title-form {
+    font-weight: bold;
+}
+
+.title-list {
+    font-weight: bold;
+}
+
+
+
+.select-item {
+    position: inherit;
+
+}
+
+.line {
+    width: 150px;
+    height: 4px;
+    background-color: #50f;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
